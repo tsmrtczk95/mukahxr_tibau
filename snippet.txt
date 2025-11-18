@@ -1,0 +1,20 @@
+<model-viewer src="tibau _polyteknik.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="aces" poster="poster.png" shadow-intensity="1.5" environment-image="Street View 360.jpg" exposure="1.4" skybox-image="Street View 360.jpg" camera-orbit="-32.69deg 80.59deg 2.562m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.11833894872635975m 0.029767693098551762m 0.27189418729122705m" data-normal="0.00858834037044969m 0.01424244276722m 0.999861687051616m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Iron Wood
+            (Kayu Berlian)</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.13156588772260802m 0.05875237226408703m 0.15298146901388449m" data-normal="-0.7161848461925839m 0.5456835703787002m -0.43509620442249236m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Rattan Rope</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.0013253846073608688m 0.08006808376347363m -0.11622918615715183m" data-normal="-0.9288954435373075m 0.010228446211894178m 0.3702008020841113m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Iron Wood
+            Steps</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
